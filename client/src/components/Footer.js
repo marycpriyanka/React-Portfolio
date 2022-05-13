@@ -41,7 +41,7 @@ export default function Header() {
         </ul>
     </nav>
         
-            <small>&copy 2022 Priyanka Mary Christine</small>
+            <small>© 2022 Priyanka Mary Christine</small>
         </footer>
     );
 }
