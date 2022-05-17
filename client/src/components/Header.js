@@ -84,9 +84,9 @@ export default function Header() {
             </nav>
             {/* Navigation links (hidden by default) */}
             <div id="myLinks">
-                <a href="#about">ABOUT ME</a>
-                <a href="#work">MY WORK</a>
-                <a href="#contact">CONTACT ME</a>
+                <a href="/">ABOUT ME</a>
+                <a href="/work">MY WORK</a>
+                <a href="/contact">CONTACT ME</a>
                 <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:e64c6ad2-93d3-4e8b-861b-5124d57dbc7b"
                     target="_blank" rel="noreferrer">RESUME</a>
             </div>

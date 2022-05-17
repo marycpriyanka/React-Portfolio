@@ -233,10 +233,6 @@ footer {
         flex-direction: column;
     }
 
-    .project {
-        width: 90%;
-    }
-
     /* In the contact section, only 2 contact details will be in a row. */
     #contact nav ul li {
         width: 40%;
@@ -245,7 +241,6 @@ footer {
 
     header nav ul {
         right: unset;
-        /* align-content: center; */
     }
 }
 
@@ -258,8 +253,10 @@ footer {
 
     .project {
         flex-direction: column;
+        margin: 1%;
     }
 
+    /* Description will always come below the project image */
     .project .description {
         order: 2;
     }
