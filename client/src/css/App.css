@@ -179,7 +179,7 @@ form input {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 50%;
-    border-color: var(--contrast-color);
+    border: solid 1px var(--contrast-color);
 }
 
 form textarea {
