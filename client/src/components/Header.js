@@ -71,9 +71,9 @@ export default function Header() {
             <h1></h1>
             <nav>
                 <ul>
-                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="/">ABOUT ME</a></li>
                     <li><a href="#work">MY WORK</a></li>
-                    <li><a href="#contact">CONTACT ME</a></li>
+                    <li><a href="/contact">CONTACT ME</a></li>
                     <li><a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:e64c6ad2-93d3-4e8b-861b-5124d57dbc7b"
                             target="_blank" rel="noreferrer">RESUME</a></li>
                 </ul>

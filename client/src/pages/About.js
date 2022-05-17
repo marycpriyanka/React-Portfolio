@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ReactDOM  from 'react-dom';
 import $ from "jquery";
 
 export default function Header() {
@@ -7,10 +8,20 @@ export default function Header() {
 
         // Adds a little animation
         function animatePhoto() {
+            console.log($("#priyanka")[0]);
             // Shakes the photo vertically
-            $("#priyanka").effect("bounce", { times: 3 }, "slow");
+            $("#priyanka").animate({}, 1000).effect("bounce", { times: 3 }, "slow");
         }
     }, [])
+
+    // const interval = setInterval(animatePhoto, 7000);
+
+    //     // Adds a little animation
+    //     function animatePhoto() {
+    //         console.log($("#priyanka")[0]);
+    //         // Shakes the photo vertically
+    //         $("#priyanka")[0].animate("bounce", { times: 3 }, "slow");
+    //     }
 
     return (
         <section id="about" class="section">
