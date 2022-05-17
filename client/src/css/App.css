@@ -7,9 +7,13 @@
 }
 
 body {
+    font-family: monospace;
+}
+
+.App {
     display: flex;
     flex-direction: column;
-    font-family: monospace;
+    /* overflow:auto; */
 }
 
 header {
