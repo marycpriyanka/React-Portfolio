@@ -260,6 +260,10 @@ footer {
         flex-direction: column;
     }
 
+    .project .description {
+        order: 2;
+    }
+
     /* In the contact section, only 1 contact detail will be in a row. */
     #contact nav ul li {
         width: 90%;
