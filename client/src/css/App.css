@@ -84,15 +84,6 @@ nav ul li a:hover {
 
 .section {
     padding: 2%;
-
-}
-
-/* The 3 sections have alternate background colors. */
-.section:nth-child(odd) {
-    background-color: whitesmoke;
-}
-
-.section:nth-child(even) {
     background-color: #FAE9E1;
 }
 
@@ -118,18 +109,12 @@ nav ul li a:hover {
     padding: 2%;
 }
 
-#work div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#work div section {
+#work div #project-img {
     margin: 2%;
     border: 1px solid var(--bg-color);
     background-color: var(--bg-color);
     color: var(--contrast-color);
-    height: max-content
+    height: max-content;
 }
 
 #repoLink {
@@ -137,34 +122,47 @@ nav ul li a:hover {
     padding: 0 2%;
 }
 
+#repoLink :hover {
+    color: var(--bg-color);
+}
+
 /* Box shadow is given to each project container when user hovers on it. */
-#work div section:hover {
+#work div #project-img:hover {
     box-shadow: 0px 0px 15px var(--bg-color);
 }
 
-#work div section figure {
+#work div #project-img figure {
     background-image: linear-gradient(0.25turn, var(--bg-color), var(--bg-color2));
 }
 
-#work div section figure img {
+#work div #project-img figure img {
     /* The height: auto will set the height according to the width so the aspect ratio is good. */
     width: 100%;
     height: auto;
 }
 
-#work div section figcaption {
+#work div #project-img figcaption {
     color: var(--heading-color);
     text-align: center;
     font-size: xx-large;
 }
 
-/* The first application is larger in size than the others. */
-.main-project {
-    width: 90%;
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project .description {
+    margin: 2%;
 }
 
-.project {
-    width: 45%;
+.project h3, .project h4 {
+    color: var(--bg-color);
+    padding: 1%;
+}
+
+.project .tech {
+    color: var(--contrast-color);
 }
 
 form {
@@ -250,6 +248,10 @@ footer {
 
     /* The introduction will come at the bottom of the photo. */
     #about div {
+        flex-direction: column;
+    }
+
+    .project {
         flex-direction: column;
     }
 
