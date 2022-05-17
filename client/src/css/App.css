@@ -169,14 +169,34 @@ nav ul li a:hover {
 
 form {
     margin: 20px;
-    justify-content: center;
 }
 
 form input {
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 60%;
+    width: 50%;
+    border-color: var(--contrast-color);
+}
+
+form textarea {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    border-color: var(--contrast-color);
+
+}
+
+form button {
+    padding: 4px;
+    background-color: var(--bg-color);
+    color: var(--heading-color);
+}
+
+.error-text {
+    color: var(--bg-color);
+    margin-left: 20px;
 }
 
 #contact nav ul {

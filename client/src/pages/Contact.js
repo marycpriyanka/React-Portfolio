@@ -51,7 +51,8 @@ export default function Contact() {
     };
 
     return (
-        <div>
+        <section class="section">
+            <h2>Contact me</h2>
             <form>
                 <input value={name} name="name" onChange={handleInputChange} type="text" placeholder="name" />
                 <input value={email} name="email" onChange={handleInputChange} type="email" placeholder="email" />
@@ -60,9 +61,9 @@ export default function Contact() {
             </form>
             {errMessage && (
                 <div>
-                    <p>{errMessage}</p>
+                    <p className="error-text">{errMessage}</p>
                 </div>
             )}
-        </div>
+        </section>
     );
 }
