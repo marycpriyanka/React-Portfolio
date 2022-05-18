@@ -175,6 +175,7 @@ nav ul li a:hover {
 
 form {
     margin: 20px;
+    padding: 2%;
 }
 
 form input {
@@ -183,6 +184,7 @@ form input {
     margin-bottom: 5px;
     width: 50%;
     border: solid 1px var(--contrast-color);
+    padding: 0.5%;
 }
 
 form textarea {
@@ -191,7 +193,7 @@ form textarea {
     margin-bottom: 5px;
     width: 50%;
     border-color: var(--contrast-color);
-
+    padding: 1%;
 }
 
 form button {
