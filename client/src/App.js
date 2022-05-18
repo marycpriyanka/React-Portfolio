@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import About from "./pages/About"
 import Contact from "./pages/Contact";
 import Work  from "./pages/Work";
+import Resume from "./pages/Resume";
 
 // Imports list of projects from project.js
 import projects from "./projects";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/work" element={<Work projects={projects}/>}></Route>
+          <Route path="/resume" element={<Resume />}></Route>
         </Routes>
         <Footer />
       </div>

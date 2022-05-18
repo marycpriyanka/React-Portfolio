@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProjectDescription({ project }) {
     return (
-        <section class="description">
+        <section className="description">
             <h3>{project.title}
                 <a id="repoLink" href={project.githubUrl} target="_blank"
                     title="Link to Github repo">

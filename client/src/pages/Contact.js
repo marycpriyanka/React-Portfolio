@@ -51,7 +51,7 @@ export default function Contact() {
     };
 
     return (
-        <section class="section">
+        <section className="section">
             <h2>Contact me</h2>
             <form>
                 <input value={name} name="name" onChange={handleInputChange} type="text" placeholder="name" />

@@ -23,7 +23,7 @@ export default function Header() {
     //     }
 
     return (
-        <section id="about" class="section">
+        <section id="about" className="section">
             <h2>About me</h2>
             <div>
                 <figure>

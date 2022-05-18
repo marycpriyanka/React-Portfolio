@@ -4,7 +4,7 @@ import ProjectOdd from "./components/ProjectOdd";
 
 export default function Work(props) {
     return (
-        <section id="work" class="section">
+        <section id="work" className="section">
             <h2>My work</h2>
             {props.projects.map(project => project.id % 2 === 0 ? <ProjectEven key={project.id} project={project} /> : <ProjectOdd key={project.id} project={project} />)}
         </section>

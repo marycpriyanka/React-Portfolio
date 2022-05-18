@@ -21,6 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 5% 1% 5% 5%;
+    height: 200px;
     align-items: center;
     color: var(--heading-color);
 
@@ -87,6 +88,7 @@ nav ul li a:hover {
 }
 
 .section {
+    min-height: calc(100vh - 275px); 
     padding: 2%;
     /* background-color: #FAE9E1; */
     background-color: whitesmoke
@@ -207,7 +209,7 @@ form button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2%;
+    padding: 1%;
     flex-wrap: wrap;
 }
 
@@ -222,7 +224,8 @@ svg {
 footer {
     background-image: linear-gradient(var(--bg-color), var(--bg-color2));
     text-align: center;
-    padding: 0.5%;
+    /* padding: 0.5%; */
+    height: 75px;
     color: var(--heading-color);
 }
 
@@ -232,6 +235,7 @@ footer {
     /* For the navigation links to come in next line of name. */
     header {
         flex-direction: column;
+        justify-content: center;
     }
 
     /* In the contact section, only 2 contact details will be in a row. */
@@ -242,6 +246,14 @@ footer {
 
     header nav ul {
         right: unset;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .section {
+        min-height: calc(100vh - 350px); 
     }
 }
 
@@ -273,6 +285,14 @@ footer {
 
     #repoLink {
         padding: 0;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .section {
+        min-height: calc(100vh - 400px); 
     }
 }
 
