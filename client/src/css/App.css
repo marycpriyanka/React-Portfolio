@@ -212,7 +212,7 @@ form button {
     margin: 2%;
 }
 
-#skill {
+.skill {
     margin: 2%;
     padding: 1%;
     border: 2px solid var(--contrast-color);
