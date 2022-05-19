@@ -5,22 +5,22 @@ export default function Header() {
     useEffect(() => {
         const interval = setInterval(animatePhoto, 7000);
 
-        // Adds a little animation
         function animatePhoto() {
-            console.log($("#priyanka")[0]);
-            // Shakes the photo vertically
-            $("#priyanka").animate({}, 1000).effect("bounce", { times: 3 }, "slow");
+            const photo = document.getElementById('priyanka');
+            var interval = 100;
+            var distance = 10;
+            var times = 4;
+
+            $(photo).css('position', 'relative');
+
+            for (var iter = 0; iter < (times + 1); iter++) {
+                $(photo).animate({
+                    left: ((iter % 2 === 0 ? distance : distance * -1))
+                }, interval);
+            }
+            $(photo).animate({ left: 0 }, interval);
         }
     }, [])
-
-    // const interval = setInterval(animatePhoto, 7000);
-
-    //     // Adds a little animation
-    //     function animatePhoto() {
-    //         console.log($("#priyanka")[0]);
-    //         // Shakes the photo vertically
-    //         $("#priyanka")[0].animate("bounce", { times: 3 }, "slow");
-    //     }
 
     return (
         <section id="about" className="section">
