@@ -1,4 +1,5 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import $ from "jquery";
 
 export default function Header() {
@@ -8,8 +9,8 @@ export default function Header() {
         const navigationLinks = $("header nav ul li a");
         const hamburger = document.getElementById("hamburger");
 
-        showName("Priyanka Mary Christine", 0); 
-    
+        showName("Priyanka Mary Christine", 0);
+
         // Displays the name letter by letter with a small delay.
         function showName(myName, index) {
             if (index < myName.length) {
@@ -52,10 +53,10 @@ export default function Header() {
         function addPaddingToSection(event) {
             const element = event.target;
             const link = element.getAttribute("href");
-            
+
             $(".section").css("padding", "2%");
             if (link === "#about" || link === "#work")
-                    $(`${link}`).css("padding-top", "6%");
+                $(`${link}`).css("padding-top", "6%");
         }
 
         // Event listeners
@@ -65,29 +66,28 @@ export default function Header() {
         hamburger.addEventListener("click", showOrHideNavigationLinks);
         // window.addEventListener("scroll", scrollFunction);
     }, [])
-  
+
     return (
         <header>
             <h1></h1>
             <nav>
                 <ul>
-                    <li><a href="/">ABOUT ME</a></li>
-                    <li><a href="/work">MY WORK</a></li>
-                    <li><a href="/contact">CONTACT ME</a></li>
-                    <li><a href="/resume">RESUME</a></li>
+                    <li><Link to="/">ABOUT ME</Link></li>
+                    <li><Link to="/work">MY WORK</Link></li>
+                    <li><Link to="/contact">CONTACT ME</Link></li>
+                    <li><Link to="/resume">RESUME</Link></li>
                 </ul>
                 {/* "Hamburger menu" / "Bar icon" to toggle the navigation links */}
-                <a id="hamburger" href="javascript:void(0);" class="icon">
+                <button id="hamburger" href="javascript:void(0);" class="icon">
                     <i class="fa fa-bars"></i>
-                </a>
+                </button>
             </nav>
             {/* Navigation links (hidden by default) */}
             <div id="myLinks">
-                <a href="/">ABOUT ME</a>
-                <a href="/work">MY WORK</a>
-                <a href="/contact">CONTACT ME</a>
-                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:e64c6ad2-93d3-4e8b-861b-5124d57dbc7b"
-                    target="_blank" rel="noreferrer">RESUME</a>
+                <li><Link to="/">ABOUT ME</Link></li>
+                <li><Link to="/work">MY WORK</Link></li>
+                <li><Link to="/contact">CONTACT ME</Link></li>
+                <li><Link to="/resume">RESUME</Link></li>
             </div>
         </header>
     );
@@ -96,4 +96,3 @@ export default function Header() {
 
 
 
-    
