@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 5% 1% 5% 5%;
-    height: 200px;
+    min-height: 200px;
     align-items: center;
     color: var(--heading-color);
 
@@ -71,7 +71,6 @@ header #myLinks {
     text-decoration: none;
     display: block;
 }
-
 
 #myLinks a:hover {
     text-decoration: underline;

@@ -64,7 +64,6 @@ export default function Header() {
         hamburgerLinks.addEventListener("click", addPaddingToSectionMobile);
         navigationLinks.on("click", addPaddingToSection);
         hamburger.addEventListener("click", showOrHideNavigationLinks);
-        // window.addEventListener("scroll", scrollFunction);
     }, [])
 
     return (
@@ -73,21 +72,23 @@ export default function Header() {
             <nav>
                 <ul>
                     <li><Link to="/">ABOUT ME</Link></li>
-                    <li><Link to="/work">MY WORK</Link></li>
+                    <li><Link to="/work">PORTFOLIO</Link></li>
                     <li><Link to="/contact">CONTACT ME</Link></li>
                     <li><Link to="/resume">RESUME</Link></li>
                 </ul>
                 {/* "Hamburger menu" / "Bar icon" to toggle the navigation links */}
-                <button id="hamburger" href="javascript:void(0);" class="icon">
+                <a id="hamburger" href="javascript:void(0);" class="icon">
                     <i class="fa fa-bars"></i>
-                </button>
+                </a>
             </nav>
             {/* Navigation links (hidden by default) */}
             <div id="myLinks">
-                <li><Link to="/">ABOUT ME</Link></li>
-                <li><Link to="/work">MY WORK</Link></li>
-                <li><Link to="/contact">CONTACT ME</Link></li>
-                <li><Link to="/resume">RESUME</Link></li>
+                <ul>
+                    <li><Link to="/">ABOUT ME</Link></li>
+                    <li><Link to="/work">PORTFOLIO</Link></li>
+                    <li><Link to="/contact">CONTACT ME</Link></li>
+                    <li><Link to="/resume">RESUME</Link></li>
+                </ul>
             </div>
         </header>
     );
