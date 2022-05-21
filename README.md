@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Portfolio
+![badge](https://img.shields.io/badge/MIT-License-blue.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is my portfolio website containing samples of my work. It is a single page application to share my projects with other developers.
 
-In the project directory, you can run:
+## Table of Contents 
 
-### `npm start`
+- [Usage](#usage)
+- [Technologies used](#technologies-used)
+- [Deployed link](#deployed-link)
+- [License](#license)
+- [Questions](#questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Use the deployed url https://marycpriyanka.github.io/React-Portfolio/ to open the portfolio. 
 
-### `npm test`
+- The header contains my name and links to 3 sections: About me, My work, Contact me and Resume.
+- You can view the corresponding section by clicking the links in the navigation.
+- The About me section contains my recent photo and a brief introduction.
+- My work section contains the titled images of the applications that I have developed, along with the description, technologies used and the GitHub repo link.
+- When you click on the images of the applications, you will be taken to that deployed application.
+- When you hover on each application, a box shadow appears around it.
+- Next to the project title and above the description, there is GitHub icon which will take you to the GitHub repo link of that application.
+- My contact section contains a contact form with fields for your name, email address, and a message. All fields are required and email validation is also added.
+- The Resume section contains link to my downloadable resume and a list of my proficiencies.
+- The footer contains my email id, phone number, github profile link and linkedIn profile link.
+- When you click on the email id, it will launch your default Email Client with my email address in the 'To' section.
+- When you click on the github link or linkedIn link, my github or linkedIn profile URL will be opened in a new tab in the browser.
+- When you resize the page or view the site on various screens and devices, then you are presented with a responsive layout that adapts to your viewport.
+- The navigation links stay in place when you scroll down.
+- In mobile screen, hamburger icon is used for navigation links.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Technologies used
 
-### `npm run build`
+React.js, CSS, Javascript, GitHub pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployed link
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://marycpriyanka.github.io/React-Portfolio/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+Portfolio is available under the MIT License.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Questions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://github.com/marycpriyanka
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any addditional questions, reach me at marycpriyanka@gmail.com.
