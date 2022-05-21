@@ -7,9 +7,9 @@ This is my portfolio website containing samples of my work. It is a single page 
 
 ## Table of Contents 
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Technologies used](#technologies-used)
+- [Deployed link](#deployed-link)
 - [License](#license)
 - [Questions](#questions)
 
@@ -36,6 +36,10 @@ Use the deployed url https://marycpriyanka.github.io/React-Portfolio/ to open th
 ##  Technologies used
 
 React.js, CSS, Javascript, GitHub pages
+
+## Deployed link
+
+https://marycpriyanka.github.io/React-Portfolio/
 
 ## License
 
