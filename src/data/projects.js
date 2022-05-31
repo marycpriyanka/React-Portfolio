@@ -1,6 +1,15 @@
 const projects = [
     {
         id: 1,
+        title: "Game Hub",
+        image: "/images/projects/game_hub.png",
+        description: "Game Hub is an application created for users who are interested in games and allows them to expand that interest or hobby. This application has users login or register to enhance their gaming experience by adding games to their profile, leaving reviews, and adding likes or dislikes for their pleasure. A user can see what games other users are playing as well.",
+        technologies: "React | CSS | GraphQL(Apollo) |Node.js | Express.js | MongoDB | Mongoose | JWT Authentication | Heroku",
+        demoUrl: "https://game-hub-2022.herokuapp.com/",
+        githubUrl: "https://github.com/marycpriyanka/game-hub"
+    },
+    {
+        id: 2,
         title: "Quiz-Hub",
         image: "/images/projects/quiz_hub.jpg",
         description: "Quiz hub is a user login quiz website to allow people to share their knowledge of topics with other people by putting them to the test. It could be used by an online trivia enthusiast to post quizzes and to take quizzes that others have posted so that they could test and compare their knowledge with other trivia enthusiasts.",
@@ -9,22 +18,13 @@ const projects = [
         githubUrl: "https://github.com/marycpriyanka/quiz-hub"
     },
     {
-        id: 2,
+        id: 3,
         title: "Cal-It",
         image: "/images/projects/Calit.JPG",
         description: " Cal-it is a recipe search website where users can search for recipes based on like mealtype, diet, main ingredient and cooking time.",
         technologies: "HTML | CSS | Bootstrap | JavaScript | AJAX | Responsive Design",
         demoUrl: "https://marycpriyanka.github.io/recipe-recommendation/",
         githubUrl: "https://github.com/marycpriyanka/recipe-recommendation"
-    },
-    {
-        id: 3,
-        title: "Weather dashboard",
-        image: "/images/projects/WeatherDashboard.JPG",
-        description: "Weather dashboard retrieves weather data for cities.",
-        technologies: "HTML | CSS | Bootstrap | JavaScript | Open Weather One Call API",
-        demoUrl: "https://marycpriyanka.github.io/Weather-dashboard/",
-        githubUrl: "https://github.com/marycpriyanka/Weather-dashboard"
     },
     {
         id: 4,
@@ -37,6 +37,15 @@ const projects = [
     },
     {
         id: 5,
+        title: "Weather dashboard",
+        image: "/images/projects/WeatherDashboard.JPG",
+        description: "Weather dashboard retrieves weather data for cities.",
+        technologies: "HTML | CSS | Bootstrap | JavaScript | Open Weather One Call API",
+        demoUrl: "https://marycpriyanka.github.io/Weather-dashboard/",
+        githubUrl: "https://github.com/marycpriyanka/Weather-dashboard"
+    },
+    {
+        id: 6,
         title: "Note Taker",
         image: "/images/projects/note_taker.JPG",
         description: "Note Taker is an application used to write, save and delete notes. This is very useful to all types of users like small business owners, so that they can organize their thoughts and keep track of tasks they need to complete.",
