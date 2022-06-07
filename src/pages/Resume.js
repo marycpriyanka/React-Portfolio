@@ -22,7 +22,7 @@ export default function Resume({ skills }) {
 
     return (
         <section className="section">
-            <h3><a id="resume" href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:e64c6ad2-93d3-4e8b-861b-5124d57dbc7b"
+            <h3><a id="resume" href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:e3912a44-0492-4df0-bde4-c132fca8f570"
                 target="_blank" rel="noreferrer">Download my Resume</a></h3>
             <h2>Skills</h2>
             <div id="skillDiv">
